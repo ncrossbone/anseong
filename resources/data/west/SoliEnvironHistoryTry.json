@@ -1,0 +1,20 @@
+[{
+	"id": "20",
+	"text": "토양오염물질 배경농도",
+	"iconCls": "layerNoneImg",
+	"checked": false,
+	"expanded": true,
+	"children": [{
+		"id":"21",
+		"text": "<img id='layerImg' src='./resources/images/layer/t1.png' />  배경토양_표토",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"22",
+		"text":"<img src='./resources/images/layer/t2.png' /> 배경토양_심토",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]

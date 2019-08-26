@@ -1,0 +1,26 @@
+[{
+	"id": "20",
+	"text": "행정구역(법정동)",
+		"iconCls": "layerNoneImg",
+	"checked": false,
+	"expanded": true,
+	"children": [{
+		"id":"21",
+		"text": "<img src='./resources/images/layer/layer3_1.png' /> 시도",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": true
+	},{
+		"id":"22",
+		"text":"<img src='./resources/images/layer/layer3_2.png' /> 시군구",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"23",
+		"text":"<img src='./resources/images/layer/layer3_3.png' /> 읍면동",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]

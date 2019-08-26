@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>안성 SGIS</title>
+<link rel="stylesheet" href="http://js.arcgis.com/3.15/esri/css/esri.css">
+<link rel="stylesheet" href="http://js.arcgis.com/3.15/dijit/themes/claro/claro.css">
+<script type="text/javascript" src="http://js.arcgis.com/3.15/"></script>
+<script type ="text/javascript" src="./resources/js/common.js"></script>
+<script type="text/javascript" src="./resources/lib/jquery/jquery-1.11.3.min.js"></script>
+<script id="microloader" data-app="b4cf6398-89e5-4d8b-82c2-63cda21d701c" type="text/javascript" src="bootstrap.js"></script>
+
+<style type="text/css">
+
+.onOffBtn {
+	top: 7px !important;
+}
+
+.price-rise .x-grid-cell-inner {
+    text-align:center !important;
+}
+
+.x-grid-cell-inner {
+	text-align : left !important;
+}
+
+.x-tree-node-text> img {
+	vertical-align:middle !important; margin-top: -2px;
+}
+
+.x-tree-node-text> a { width: 19px !important; height: 19px !important; vertical-align: bottom !important; /*position: realive;*/ display: inline-block;}
+
+
+.x-tree-icon, .x-tree-elbow-img, .x-tree-checkbox{
+	margin-bottom: 0px !important;
+}
+
+.x-tree-checkbox {
+	margin-right: 0px !important;
+	top: 0px !important;
+	width: auto !important;
+	vertical-align: middle !important;
+}
+
+
+.x-tree-elbow-img { height: auto !important;}
+
+.x-tree-node-text> a> img {  position: absolute; top: 7px; } 
+
+
+
+
+ @font-face {
+  font-family: 'notokr-thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./resources/font/notokr-thin.eot);
+  src: url(./resources/font/notokr-thin.eot?#iefix) format('embedded-opentype'),
+       url(./resources/font/notokr-thin.woff2) format('woff2'),
+       url(./resources/font/notokr-thin.woff) format('woff'),
+       url(./resources/font/notokr-thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'notokr-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./resources/font/notokr-regular.eot);
+  src: url(./resources/font/notokr-regular.eot?#iefix) format('embedded-opentype'),
+       url(./resources/font/notokr-regular.woff2) format('woff2'),
+       url(./resources/font/notokr-regular.woff) format('woff'),
+       url(./resources/font/notokr-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'notokr-bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./resources/font/notokr-bold.eot);
+  src: url(./resources/font/notokr-bold.eot?#iefix) format('embedded-opentype'),
+       url(./resources/font/notokr-bold.woff2) format('woff2'),
+       url(./resources/font/notokr-bold.woff) format('woff'),
+       url(./resources/font/notokr-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'notokr-black';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./resources/font/notokr-black.eot);
+  src: url(./resources/font/notokr-black.eot?#iefix) format('embedded-opentype'),
+       url(./resources/font/notokr-black.woff2) format('woff2'),
+       url(./resources/font/notokr-black.woff) format('woff'),
+       url(./resources/font/notokr-black.ttf) format('truetype');
+}
+
+html, body{
+  font-family: 'notokr-regular';
+}
+/* combo border */
+#cbo01-triggerWrap, #cbo02-triggerWrap, #cbo03-triggerWrap, #cbo04-triggerWrap{
+     border:none !important;
+}
+/* combo background */
+.x-form-text-default {
+    background-color: #f6f7fa !important;
+    padding: 0px !important;
+}
+/* combo arrow bg */
+.x-form-trigger-default {
+    background: #f6f7fa !important;
+}
+/* combo text */
+.x-webkit .x-form-text {
+    font-size: 14px !important;
+    font-family: notokr-bold !important;
+}
+.chkSan-displayEl{
+	color:#d0d0d0 !important;
+}
+.x-accordion-item .x-accordion-hd {
+    background: #00284b !important;
+    border-bottom:1px solid #1d4465 !important;
+    border-top:1px solid #1d4465 !important;
+}
+.x-accordion-layout-ct {
+ 	background:#001f39 !important;
+    padding: 0 !important;
+}
+.westTitle{
+color: #fff; font-size: 16px; letter-spacing: -1px; font-family: notokr-bold !important;
+}
+
+.x-accordion-hd .x-tool-collapse-top:before, .x-accordion-hd .x-tool-collapse-bottom:before {
+    content: url(./resources/images/ui/menu_on.png);
+}
+.x-accordion-hd .x-tool-expand-top:before, .x-accordion-hd .x-tool-expand-bottom:before {
+    content: url(./resources/images/ui/menu_off.png);
+}
+#thematicMap-body .x-grid-cell-inner, .x-grid-cell-inner-treecolumn{
+  background: #001f39 !important;
+  color:#fff !important;
+  font-size: 14px !important;
+  letter-spacing: -1px !important;
+  font-weight: 600 !important;
+}
+#westContainer-body{
+	border-width:0 !important !important;
+	border-style:none !important !important;
+}
+.x-tree-checkbox:before {
+    content: url(./resources/images/ui/check.gif) !important;
+}
+.x-tree-checkbox-checked:before {
+    content: url(./resources/images/ui/checked.gif) !important;
+}
+
+#westContainer_header-innerCt {
+	position: absolute !important;
+	background:url(./resources/images/ui/left_on.png) no-repeat !important;
+	top:50% !important;
+}
+
+
+#westContainer_header-targetEl div {
+	margin-top: 13px !important;
+	width: 20px;
+	color: transparent;
+	position: absolute;
+	background-color: transparent;
+}
+.x-grid-cell-inner-treecolumn::before{
+ border:none !important;
+}
+.x-window-default {
+    border: 1px solid #3f3f3f !important;
+}
+#StatsInfo,#PollutionDetailPop,#pollutionFileView{
+	padding: 10px !important;
+}
+#StatsInfo_header,#pollutionFileView_header{
+    background: #00284b !important;
+    border: none !important;
+}
+#StatsInfo_header-title-textEl,#pollutionFileView_header-title-textEl{
+    color: #fff !important;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: notokr-bold;
+}
+#SearchResult_header, #PollutionDetailPop_header, #searchResultWindow_header,#pollutionFileView_header{
+ 	background: #00284b !important;
+    border: none !important;
+}
+
+#SearchResult_header-title-textEl, #PollutionDetailPop_header-title-textEl, #searchResultWindow_header-title-textEl{
+    color: #fff !important;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: notokr-bold;
+}
+
+#popSiteInfo-body{
+	border: 0px !important !important;
+}
+
+.x-window-header-default .x-tool-img {
+    background-color:transparent !important;
+}
+.x-column-header {
+    background-color: #f6f7fa !important;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #b4b4b4;
+}
+.x-column-header:last-child, .x-grid-td:last-child{
+	border-right: none !important;
+}
+.x-grid-body {
+    border-width: 1px !important;
+}
+.x-grid-td {
+    border-right: 1px solid #dbdbdb !important;
+}
+.x-column-header-text-inner {
+    font-family: notokr-bold !important;
+}
+.window-title-text{
+    font-family: notokr-bold;
+    background: url(./resources/images/ui/bullet.gif) no-repeat 2px !important;
+    padding: 10px;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+#adminArea table tr td:first-child{
+	font-family: notokr-bold !important;
+}
+.x-grid-item-alt {
+    background-color: #fff !important;
+}
+.x-tab-bar-default-top > .x-tab-bar-body-default {
+    padding: 0px !important;
+}
+.x-tab.x-tab-active.x-tab-default {
+    border:none !important;
+    background-color: #2d384e;
+}
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    font-family: notokr-regular !important;
+    color:#fff;
+    letter-spacing: -1px;
+}
+.x-tab-bar-default {
+    background-color: #fff !important;
+}
+.x-tab-inner-default {
+    color: #808080 !important;
+    font-family: notokr-regular;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+.x-tab-default {
+    border-right: 1px solid #dbdbdb !important;
+}
+.x-panel-body-default {
+   border: none !important;
+}
+.x-grid-tree-node-expanded .x-tree-elbow-plus, .x-grid-tree-node-expanded .x-tree-elbow-end-plus, .x-tree-elbow-plus, .x-tree-elbow-end-plus {
+    color: #dbdbdb !important;
+}
+.x-tree-icon-custom {
+    display: none !important;
+} 
+</style>
+</head>
+<body>
+
+</body>
+</html>

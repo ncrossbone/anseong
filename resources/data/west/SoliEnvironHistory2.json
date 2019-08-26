@@ -1,0 +1,14 @@
+[{
+	"id": "170",
+	"text": "특정토양오염관리대상시설",
+	"iconCls": "layerNoneImg",
+	"checked": false,
+	"expanded": true,
+	"children": [{
+		"id":"17",
+		"text": "<img src='./resources/images/layer/s3.gif' /> 특정토양오염관리대상시설  <br/> <a title='조사정보 전체보기' style='vertical-align:bottom;  position: relative; margin-left: 65px;' href='#' onClick='common.searchResult(17,\"all\",null,true,\"Polygon\");'> <img  src='./resources/images/layer/btn_2.png' /> </a> <a title ='시설정보 전체보기' style='vertical-align:bottom; position: relative;' href='#' onClick='common.searchResult(31,\"all\",null,true,\"Polygon\");'> <img src='./resources/images/layer/btn_1.png' /> </a> ",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]

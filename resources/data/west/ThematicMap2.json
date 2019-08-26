@@ -1,0 +1,20 @@
+[{
+	"id": "4",
+	"text": "지하수오염취약성도",
+		"iconCls": "layerNoneImg",
+	"checked": false,
+	"expanded": true,
+	"children": [{
+		"id":"5",
+		"text": "<img src='./resources/images/layer/symbol_5.png' /> 잠재오염원",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"6",
+		"text":"<img src='./resources/images/layer/symbol_6.png' /> 오염취약성",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]

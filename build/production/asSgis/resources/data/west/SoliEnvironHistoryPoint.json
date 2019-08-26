@@ -1,0 +1,86 @@
+[{
+	"id": "0",
+	"text": "토양오염관리대상시설",
+	"iconCls": "layerNoneImg",
+	"checked": false,
+	"expanded": true,
+	"children": [{
+		"id":"1",
+		"text": "<img id='layerImg' src='./resources/images/layer/c1.png' />  2만리터미만 석유류저장시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"2",
+		"text":"<img src='./resources/images/layer/c2.png' /> 가축매몰지",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"3",
+		"text":"<img src='./resources/images/layer/c3.png' /> 골프장",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"4",
+		"text":"<img src='./resources/images/layer/c4.png' /> 교통관련시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"5",
+		"text":"<img src='./resources/images/layer/c5.png' /> 원광석 고철보관소",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"6",
+		"text":"<img src='./resources/images/layer/c6.png' /> 유독물시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"7",
+		"text":"<img src='./resources/images/layer/c7.png' /> 유톡물질시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"8",
+		"text":"<img src='./resources/images/layer/c9.png' /> 토양오염방지 조정명령지역",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"9",
+		"text":"<img src='./resources/images/layer/c8.png' /> 특정토양오염관리대상시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"10",
+		"text":"<img src='./resources/images/layer/c10.png' /> 폐기물처리시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"11",
+		"text":"<img src='./resources/images/layer/c11.png' /> 폐수배출시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"12",
+		"text":"<img src='./resources/images/layer/c12.png' /> 하수분뇨처리시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"13",
+		"text":"<img src='./resources/images/layer/c13.png' /> 축산폐수배출시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]

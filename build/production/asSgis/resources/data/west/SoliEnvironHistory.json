@@ -1,0 +1,38 @@
+[{
+	"id": "14",
+	"text": "토양이력선택",
+	"checked": false,
+	"expanded": true,
+	"iconCls": "layerNoneImg",
+	"children": [{
+		"id":"19",
+		"text": "<img src='./resources/images/layer/s5.gif' /> 토양측정망 <a title='조사정보 전체보기' style='vertical-align:bottom;' href='#' onClick='common.searchResult(19,\"all\",null,true,\"Polygon\");'> <img src='./resources/images/layer/btn_2.png' /> </a> ",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"16",
+		"text":"<img src='./resources/images/layer/s2.gif' /> 토양오염실태조사  <a title='조사정보 전체보기' style='vertical-align:bottom;' href='#' onClick='common.searchResult(16,\"all\",null,true,\"Polygon\");'> <img src='./resources/images/layer/btn_2.png' /> </a>",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"18",
+		"text": "<img src='./resources/images/layer/s4.gif' /> 토양정밀조사 <a title='조사정보 전체보기' style='vertical-align:bottom;' href='#' onClick='common.searchResult(18,\"all\",null,true,\"Polygon\");'> <img src='./resources/images/layer/btn_2.png' /> </a> ",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"15",
+		"text": "<img src='./resources/images/layer/s1.gif' /> 토양정화완료부지  <a title='조사정보 전체보기' style='vertical-align:bottom;' href='#' onClick='common.searchResult(15,\"all\",null,true,\"Polygon\");'> <img src='./resources/images/layer/btn_2.png' /> </a> ",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"17",
+		"text": "<img src='./resources/images/layer/s3.gif' /> 특정토양오염관리대상시설  <br/> <a title='조사정보 전체보기' style='vertical-align:bottom;  position: relative; margin-left: 65px;' href='#' onClick='common.searchResult(17,\"all\",null,true,\"Polygon\");'> <img  src='./resources/images/layer/btn_2.png' /> </a> <a title ='시설정보 전체보기' style='vertical-align:bottom; position: relative;' href='#' onClick='common.searchResult(28,\"all\",null,true,\"Polygon\");'> <img src='./resources/images/layer/btn_1.png' /> </a> ",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},]
+}]

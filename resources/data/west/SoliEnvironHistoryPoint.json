@@ -1,0 +1,128 @@
+[{
+	"id": "0",
+	"text": "토양오염관리대상시설",
+	"iconCls": "layerNoneImg",
+	"checked": false,
+	"expanded": true,
+	"children": [{
+		"id":"1",
+		"text": "<img id='layerImg' src='./resources/images/layer/c1.png' />  위험물시설(2만리터 미만)",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"6",
+		"text":"<img src='./resources/images/layer/c6.png' /> 유독물시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"5",
+		"text":"<img src='./resources/images/layer/c5.png' /> 원광석·고철보관소",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"100",
+		"text":"<img src='./resources/images/layer/c2.png' /> 금속제련소",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"10",
+		"text":"<img src='./resources/images/layer/c10.png' /> 폐기물 보관(처리)시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"101",
+		"text":"<img src='./resources/images/layer/c7.png' /> 폐광산지역",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"4",
+		"text":"<img src='./resources/images/layer/c4.png' /> 교통관련시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"102",
+		"text":"<img src='./resources/images/layer/c8.png' /> 철도관련시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"103",
+		"text":"<img src='./resources/images/layer/c9.png' /> 사격장",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"11",
+		"text":"<img src='./resources/images/layer/c11.png' /> 폐수배출·처리시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"3",
+		"text":"<img src='./resources/images/layer/c3.png' /> 골프장",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"12",
+		"text":"<img src='./resources/images/layer/c12.png' /> 하수·분뇨처리시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"13",
+		"text":"<img src='./resources/images/layer/c13.png' /> 축산폐수배출·처리시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"104",
+		"text":"<img src='./resources/images/layer/c14.png' /> 농약저장시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"105",
+		"text":"<img src='./resources/images/layer/c15.png' /> 비료저장시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"106",
+		"text":"<img src='./resources/images/layer/c16.png' /> 목재가공처리업",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"107",
+		"text":"<img src='./resources/images/layer/c17.png' /> 전력관련시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"108",
+		"text":"<img src='./resources/images/layer/c18.png' /> 오염토양 반입처리시설",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"109",
+		"text":"<img src='./resources/images/layer/c19.png' /> 세탁업시설(VOCs 취급소)",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"110",
+		"text":"<img src='./resources/images/layer/c20.png' /> 제철·제강공장",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]

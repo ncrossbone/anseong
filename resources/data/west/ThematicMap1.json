@@ -1,0 +1,27 @@
+[{
+	"id": "0",
+	"text": "수문지질도",
+	"iconCls": "layerNoneImg",
+	"checked": false, 
+	"expanded": true,
+	"leaf":false,
+	"children": [{
+		"id":"1",
+		"text": "<img src='./resources/images/layer/symbol_1.png' /> 지질단면선",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"2",
+		"text":"<img src='./resources/images/layer/symbol_2.png' /> 지하수등수위선",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	},{
+		"id":"3",
+		"text": "<img src='./resources/images/layer/symbol_3.png' /> 유역경계",
+		"iconCls": "layerNoneImg",
+		"leaf": true,
+		"checked": false
+	}]
+}]
